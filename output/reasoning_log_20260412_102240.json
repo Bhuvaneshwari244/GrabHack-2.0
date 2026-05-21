@@ -1,0 +1,592 @@
+{
+  "timestamp": "2026-04-12T10:22:40.044814",
+  "issue_type": "NullPointerException",
+  "reasoning_steps": [
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "PR Creation",
+      "description": "Created PR: Fix NullPointerException in UserService.java",
+      "details": [
+        "Branch: auto-fix/nullpointerexception-20260412",
+        "Files: UserService.java"
+      ],
+      "result": "PR created successfully"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/services/UserService.java:156",
+      "details": [
+        "Method: getProfile",
+        "Context: Accessing user.preferences without null check"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing null check on user.preferences before accessing theme property. When user preferences are not set, this causes NullPointerException.",
+      "details": [
+        "Issue Type: null_check",
+        "Impact: Affects 96 requests/day (0.02% of traffic)",
+        "Confidence: 95%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add null-safe access with default value",
+      "details": [
+        "Lines changed: 5",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "PR Creation",
+      "description": "Created PR: Fix NullPointerException in UserService.java",
+      "details": [
+        "Branch: auto-fix/nullpointerexception-20260412",
+        "Files: UserService.java"
+      ],
+      "result": "PR created successfully"
+    }
+  ],
+  "confidence": 0.95,
+  "pr_generated": true,
+  "pr_title": "Fix NullPointerException in UserService.java",
+  "branch_name": "auto-fix/nullpointerexception-20260412",
+  "files_changed": [
+    "UserService.java"
+  ],
+  "reason": ""
+}

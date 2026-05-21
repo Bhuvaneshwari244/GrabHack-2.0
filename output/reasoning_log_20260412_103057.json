@@ -1,0 +1,592 @@
+{
+  "timestamp": "2026-04-12T10:30:57.166378",
+  "issue_type": "TimeoutException",
+  "reasoning_steps": [
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "PR Creation",
+      "description": "Created PR: Fix TimeoutException in Unknown",
+      "details": [
+        "Branch: auto-fix/timeoutexception-20260412",
+        "Files: Unknown"
+      ],
+      "result": "PR created successfully"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/api/PaymentGateway.ts:234",
+      "details": [
+        "Method: processPayment",
+        "Context: API call without timeout configuration"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Missing timeout configuration in payment API call. Long-running requests cause timeout exceptions.",
+      "details": [
+        "Issue Type: timeout_config",
+        "Impact: Affects 15 payment transactions/day",
+        "Confidence: 90%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Add timeout configuration",
+      "details": [
+        "Lines changed: 8",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "PR Creation",
+      "description": "Created PR: Fix TimeoutException in Unknown",
+      "details": [
+        "Branch: auto-fix/timeoutexception-20260412",
+        "Files: Unknown"
+      ],
+      "result": "PR created successfully"
+    }
+  ],
+  "confidence": 0.9,
+  "pr_generated": true,
+  "pr_title": "Fix TimeoutException in Unknown",
+  "branch_name": "auto-fix/timeoutexception-20260412",
+  "files_changed": [
+    "Unknown"
+  ],
+  "reason": ""
+}

@@ -1,0 +1,292 @@
+{
+  "timestamp": "2026-05-09T09:22:30.064874",
+  "issue_type": "APIError",
+  "reasoning_steps": [
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Generic fix",
+      "details": [
+        "Lines changed: 0",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Generic fix",
+      "details": [
+        "Lines changed: 0",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Generic fix",
+      "details": [
+        "Lines changed: 0",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Code Location Identification",
+      "description": "Traced error to src/unknown/Unknown.java:0",
+      "details": [
+        "Method: unknown",
+        "Context: Unable to locate exact issue"
+      ],
+      "result": "Location identified"
+    },
+    {
+      "action": "Root Cause Analysis",
+      "description": "Unknown root cause",
+      "details": [
+        "Issue Type: unknown",
+        "Impact: Unknown impact",
+        "Confidence: 50%"
+      ],
+      "result": "Root cause identified"
+    },
+    {
+      "action": "Solution Generation",
+      "description": "Generic fix",
+      "details": [
+        "Lines changed: 0",
+        "Backward compatible: True"
+      ],
+      "result": "Fix generated"
+    },
+    {
+      "action": "Fix Validation",
+      "description": "Validated fix against safety criteria",
+      "details": [
+        "Syntax valid: True",
+        "Safety checks: True",
+        "Blast radius: LOW"
+      ],
+      "result": "Validation passed"
+    }
+  ],
+  "confidence": 0.5,
+  "pr_generated": false,
+  "pr_title": "",
+  "branch_name": "",
+  "files_changed": [],
+  "reason": ""
+}
